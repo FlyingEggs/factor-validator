@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factor-validator"
+version = "0.1.0"
+description = "因子验证工具链: MAD去极值/截面z-score/中性化/未来函数检测/IC-IR/衰减诊断"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "AuroraCode" }]
+dependencies = [
+    "pandas>=1.3",
+    "numpy>=1.21",
+    "scipy>=1.7",
+]
+keywords = ["factor", "quant", "alpha", "IC", "IR", "validation", "lookahead"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.scripts]
+factor-validator = "factor_validator.__main__:main"
+
+[tool.setuptools]
+packages = ["factor_validator"]
