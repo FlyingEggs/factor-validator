@@ -177,7 +177,7 @@ parameters, or credentials.
 **Contact 联系方式:**
 
 - GitHub: [FlyingEggs](https://github.com/FlyingEggs)
-- Email: `auroracode.freelance@gmail.com` (freelance 接单)
+- Email: `chenminggpt@gmail.com` (freelance 接单)
 
 ## License
 
