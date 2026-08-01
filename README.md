@@ -149,35 +149,35 @@ parameters, or credentials.
 
 ## Author & Freelance / 作者与接单
 
-> Open to freelance collaboration on quantitative data engineering, backtest validation,
-> and Python/Java development. Every deliverable ships with tests and is verifiable.
+> I take on focused freelance work in quant infrastructure.
+> Every deliverable ships with tests, a reproducible demo, and a clear written report.
 >
-> 承接量化数据工程、回测验证与 Python/Java 开发私活。每个交付物都带测试、可验证。
+> 承接量化基建类私活。每个交付物都带测试、可复现示例和结构化报告。
 
-**Services 接单范围:**
+**What I can help with 接单范围:**
 
-- Backtest framework construction & audit — look-ahead, overfitting, data-leakage review
-  回测框架搭建与审计(未来函数/过拟合/数据泄露排查)
-- Factor validation & quant data pipeline — cleaning, price adjustment, neutralization
-  因子验证与量化数据管线(清洗、复权、中性化)
-- Python / Java development — data tools, automation, APIs
-  Python/Java 开发(数据处理工具、自动化、接口)
-- AI-agent-assisted programming
-  AI Agent 编程
+- Backtest vs Live audit（定位回测与实盘系统性偏差）
+- Factor validation & look-ahead detection（因子体检 + 未来函数排查）
+- Golden-master regression testing for trading systems（重构前行为冻结与对拍）
+- Quant data pipeline hardening（清洗、复权、中性化、可重复性）
 
-**Acceptance criteria 验收标准:**
+**Acceptance criteria 验收标准（默认）:**
 
-- Data accuracy first: adjusted-price returns, `shift(1)`, zero look-ahead or leakage
-  数据准确优先:后复权收益、shift(1)、零未来函数与数据泄露
-- Logic verifiable: every deliverable ships with tests and a reproducible demo
-  逻辑可验证:交付物带测试与可复现示例
-- Clear handover: documented code + runnable examples + report
-  交付明确:文档化代码 + 可运行示例 + 报告
+1. Zero look-ahead / data leakage（强制 `shift(1)` + 检查）
+2. All logic covered by tests + one-click reproducible demo
+3. Structured report (findings + grade/score + recommended next steps)
+4. Documented code and clear handover
+
+**Preferred engagement 合作方式:**
+
+- Clear scope + fixed acceptance criteria before start（先定范围与验收标准再开工）
+- Fixed-price small/medium projects preferred（偏好小中型固定价项目,典型 3–10 天）
+- Milestone-based if larger（更大项目按里程碑结算）
 
 **Contact 联系方式:**
 
+- Email: `chenminggpt@gmail.com`
 - GitHub: [FlyingEggs](https://github.com/FlyingEggs)
-- Email: `chenminggpt@gmail.com` (freelance 接单)
 
 ## License
 
