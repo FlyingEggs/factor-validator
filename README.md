@@ -147,6 +147,38 @@ parameters, or credentials.
 运算务必 shift(1) 杜绝未来函数、预处理走 MAD→截面 z-score→中性化 标准流程**。
 示例与演示全部使用合成数据,不包含任何真实因子、参数或凭证。
 
+## Author & Freelance / 作者与接单
+
+> Open to freelance collaboration on quantitative data engineering, backtest validation,
+> and Python/Java development. Every deliverable ships with tests and is verifiable.
+>
+> 承接量化数据工程、回测验证与 Python/Java 开发私活。每个交付物都带测试、可验证。
+
+**Services 接单范围:**
+
+- Backtest framework construction & audit — look-ahead, overfitting, data-leakage review
+  回测框架搭建与审计(未来函数/过拟合/数据泄露排查)
+- Factor validation & quant data pipeline — cleaning, price adjustment, neutralization
+  因子验证与量化数据管线(清洗、复权、中性化)
+- Python / Java development — data tools, automation, APIs
+  Python/Java 开发(数据处理工具、自动化、接口)
+- AI-agent-assisted programming
+  AI Agent 编程
+
+**Acceptance criteria 验收标准:**
+
+- Data accuracy first: adjusted-price returns, `shift(1)`, zero look-ahead or leakage
+  数据准确优先:后复权收益、shift(1)、零未来函数与数据泄露
+- Logic verifiable: every deliverable ships with tests and a reproducible demo
+  逻辑可验证:交付物带测试与可复现示例
+- Clear handover: documented code + runnable examples + report
+  交付明确:文档化代码 + 可运行示例 + 报告
+
+**Contact 联系方式:**
+
+- GitHub: [FlyingEggs](https://github.com/FlyingEggs)
+- Email: `357378143@qq.com` (freelance 接单)
+
 ## License
 
 MIT
